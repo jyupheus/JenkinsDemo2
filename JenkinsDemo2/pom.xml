@@ -63,11 +63,11 @@
 				<version>3.0.0-M4</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>${testng.xml}</suiteXmlFile>
+						<suiteXmlFile>${xmlFiles}</suiteXmlFile>
 					</suiteXmlFiles>
 					<systemPropertyVariables>
-						<executionBrowser>${Chrome}</executionBrowser>
-						<appURL>${https://www.google.com/}</appURL>
+						<executionBrowser>${browser}</executionBrowser>
+						<appURL>${url}</appURL>
 					</systemPropertyVariables>
 				</configuration>
 			</plugin>
